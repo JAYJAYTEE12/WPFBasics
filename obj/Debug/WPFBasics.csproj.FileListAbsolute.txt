@@ -1,0 +1,15 @@
+C:\Users\JAYJAYTEE\source\repos\WPFBasics\WPFBasics\bin\Debug\WPFBasics.exe.config
+C:\Users\JAYJAYTEE\source\repos\WPFBasics\WPFBasics\bin\Debug\WPFBasics.exe
+C:\Users\JAYJAYTEE\source\repos\WPFBasics\WPFBasics\bin\Debug\WPFBasics.pdb
+C:\Users\JAYJAYTEE\source\repos\WPFBasics\WPFBasics\obj\Debug\WPFBasics.csprojAssemblyReference.cache
+C:\Users\JAYJAYTEE\source\repos\WPFBasics\WPFBasics\obj\Debug\MainWindow.g.cs
+C:\Users\JAYJAYTEE\source\repos\WPFBasics\WPFBasics\obj\Debug\App.g.cs
+C:\Users\JAYJAYTEE\source\repos\WPFBasics\WPFBasics\obj\Debug\WPFBasics_MarkupCompile.cache
+C:\Users\JAYJAYTEE\source\repos\WPFBasics\WPFBasics\obj\Debug\WPFBasics_MarkupCompile.lref
+C:\Users\JAYJAYTEE\source\repos\WPFBasics\WPFBasics\obj\Debug\MainWindow.baml
+C:\Users\JAYJAYTEE\source\repos\WPFBasics\WPFBasics\obj\Debug\WPFBasics.g.resources
+C:\Users\JAYJAYTEE\source\repos\WPFBasics\WPFBasics\obj\Debug\WPFBasics.Properties.Resources.resources
+C:\Users\JAYJAYTEE\source\repos\WPFBasics\WPFBasics\obj\Debug\WPFBasics.csproj.GenerateResource.cache
+C:\Users\JAYJAYTEE\source\repos\WPFBasics\WPFBasics\obj\Debug\WPFBasics.csproj.CoreCompileInputs.cache
+C:\Users\JAYJAYTEE\source\repos\WPFBasics\WPFBasics\obj\Debug\WPFBasics.exe
+C:\Users\JAYJAYTEE\source\repos\WPFBasics\WPFBasics\obj\Debug\WPFBasics.pdb

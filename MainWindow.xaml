@@ -1,0 +1,99 @@
+﻿<Window x:Class="WPFBasics.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPFBasics"
+        mc:Ignorable="d"
+        Title="epic fortnit vbux gen legit 100% working no viras" Height="482" Width="856">
+
+	<Border Padding="20">
+		<StackPanel>
+			<Grid>
+
+				<Grid.ColumnDefinitions>
+					<ColumnDefinition Width="*" />
+					<ColumnDefinition Width="*" />
+					<ColumnDefinition Width="*" />
+				</Grid.ColumnDefinitions>
+
+				<Button x:Name="AboutButton" Click="AboutButton_Click" Margin="0 0 20 0" Grid.Column="0" Content="About"/>
+				<Button x:Name="SampleButton" Click="SampleButton_Click" Grid.Column="1" Content="Sample Text"/>
+				<Button x:Name="ExitButton" Margin="20 0 0 0" Grid.Column="2" Content="Exit" Click="ExitButton_Click"/>
+			</Grid>
+
+			<TextBlock FontSize="20" Text="free vbux genratoer" FontWeight="Bold" Margin="0 10 0 10" HorizontalAlignment="Center"/>
+
+			<Grid>
+				<Grid.ColumnDefinitions>
+					<ColumnDefinition Width="*"/>
+					<ColumnDefinition Width="*"/>
+				</Grid.ColumnDefinitions>
+
+				<StackPanel Grid.Column="0" Margin="0 0 20 0">
+					<TextBlock Text="usrname" FontSize="20"/>
+					<TextBox Padding="2"/>
+				</StackPanel>
+				<StackPanel Grid.Column="1">
+					<TextBlock Text="pssword" FontSize="20"/>
+					<PasswordBox Padding="2" PasswordChar="*"/>
+				</StackPanel>
+			</Grid>
+
+			<TextBlock FontSize="20" Text="how manyu vbuxc?" FontWeight="Bold" Margin="0 10 0 10" HorizontalAlignment="Center"/>
+			<TextBlock Text="amont" FontSize="20"/>
+			<ComboBox Padding="2" SelectedIndex="0">
+				<ComboBoxItem>1,000 Vbucks</ComboBoxItem>
+				<ComboBoxItem>2,500 Vbucks</ComboBoxItem>
+				<ComboBoxItem>4,000 Vbucks</ComboBoxItem>
+				<ComboBoxItem>6,000 Vbucks</ComboBoxItem>
+				<ComboBoxItem>10,000 Vbucks</ComboBoxItem>
+			</ComboBox>
+
+			<TextBlock FontSize="20" Text="skisn?" FontWeight="Bold" Margin="0 10 0 10" HorizontalAlignment="Center"/>
+			<Grid>
+				<Grid.ColumnDefinitions>
+					<ColumnDefinition Width="*"/>
+					<ColumnDefinition Width="*"/>
+					<ColumnDefinition Width="*"/>
+				</Grid.ColumnDefinitions>
+
+				<StackPanel Grid.Column="0" Margin="0 0 10 0">
+					<CheckBox FontSize="15" Content="Renegade Raider"/>
+					<CheckBox FontSize="15" Content="Black Knight"/>
+					<CheckBox FontSize="15" Content="Aerial Assault Trooper"/>
+					<CheckBox FontSize="15" Content="Sparkle Specialist"/>
+					<CheckBox FontSize="15" Content="Honor Guard"/>
+				</StackPanel>
+				<StackPanel Grid.Column="1" Margin="0 0 10 0">
+					<CheckBox FontSize="15" Content="Galaxy"/>
+					<CheckBox FontSize="15" Content="Ghoul Trooper"/>
+					<CheckBox FontSize="15" Content="Ragnarok"/>
+					<CheckBox FontSize="15" Content="Crackshot"/>
+					<CheckBox FontSize="15" Content="The Merry Marauder"/>
+				</StackPanel>
+				<StackPanel Grid.Column="2" Margin="0 0 10 0">
+					<CheckBox FontSize="15" Content="Dark Voyager"/>
+					<CheckBox FontSize="15" Content="Bunny Brawler"/>
+					<CheckBox FontSize="15" Content="Rook"/>
+					<CheckBox FontSize="15" Content="Tomato Head"/>
+					<CheckBox FontSize="15" Content="John Whick"/>
+				</StackPanel>
+			</Grid>
+
+			<Grid>
+				<Grid.ColumnDefinitions>
+					<ColumnDefinition Width="*"/>
+					<ColumnDefinition Width="*"/>
+				</Grid.ColumnDefinitions>
+				<StackPanel Grid.Column="0" Margin="0 10 10 0">
+					<Button x:Name="GenButton" Content="generat me" Click="GenButton_Click" />
+				</StackPanel>
+				<StackPanel Grid.Column="1" Margin="0 10 10 0">
+					<ProgressBar Height="20" Minimum="0" Maximum="100" Name="genStatus" Value="{Binding WorkerState}"/>
+				</StackPanel>
+			</Grid>
+
+		</StackPanel>
+	</Border>
+</Window>
